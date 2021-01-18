@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.head {
+  text-align: center;
+  margin-top: 20px;
+
+}
+.search {
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+
+  
+}
+.App {
+  background-color: #F6F5F9;
 }
