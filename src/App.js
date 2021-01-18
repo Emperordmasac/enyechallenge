@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     setAppState({ loading: true })
-    fetch('http://api.enye.tech/v1/challenge/records')
+    fetch('https://api.enye.tech/v1/challenge/records')
       .then((response) => response.json())
       .then((profile) => {
         setAppState({ loading: false, profileLists: profile })
